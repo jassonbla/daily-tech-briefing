@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "sources": [
+    {
+      "name": "Example Personal Engineering Blog",
+      "url": "https://example.com/feed.xml",
+      "type": "rss",
+      "category": "developer-tools",
+      "priority": 0.75,
+      "signals": ["engineering", "practical-dev"],
+      "rationale": "Replace this with a source that consistently matches your interests.",
+      "status": "personal",
+      "language": "en"
+    }
+  ]
+}

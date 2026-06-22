@@ -1,0 +1,292 @@
+{
+  "version": "1.0.0",
+  "sources": [
+    {
+      "name": "Cloudflare Blog",
+      "url": "https://blog.cloudflare.com/rss/",
+      "type": "rss",
+      "category": "ai-labs",
+      "priority": 0.71,
+      "signals": [
+        "cloud-infra",
+        "developer-platform",
+        "security"
+      ],
+      "rationale": "Default curated source for daily AI, technology, product, infrastructure, or editorial signal.",
+      "status": "default",
+      "language": "en"
+    },
+    {
+      "name": "OpenAI News",
+      "url": "https://openai.com/news/rss.xml",
+      "type": "rss",
+      "category": "ai-labs",
+      "priority": 0.85,
+      "signals": [
+        "ai-labs",
+        "models",
+        "platform"
+      ],
+      "rationale": "Default curated source for daily AI, technology, product, infrastructure, or editorial signal.",
+      "status": "default",
+      "language": "en"
+    },
+    {
+      "name": "Hugging Face Blog",
+      "url": "https://huggingface.co/blog/feed.xml",
+      "type": "atom",
+      "category": "ai-labs",
+      "priority": 0.71,
+      "signals": [
+        "open-source-ai",
+        "models",
+        "developer-tools"
+      ],
+      "rationale": "Default curated source for daily AI, technology, product, infrastructure, or editorial signal.",
+      "status": "default",
+      "language": "en"
+    },
+    {
+      "name": "Claude Blog",
+      "url": "https://claude.com/blog",
+      "type": "web",
+      "category": "ai-labs",
+      "priority": 0.85,
+      "signals": [
+        "ai-labs",
+        "models",
+        "agents"
+      ],
+      "rationale": "Default curated source for daily AI, technology, product, infrastructure, or editorial signal.",
+      "status": "default",
+      "language": "en"
+    },
+    {
+      "name": "The Verge",
+      "url": "https://www.theverge.com/rss/index.xml",
+      "type": "rss",
+      "category": "editorial-analysis",
+      "priority": 0.71,
+      "signals": [
+        "technology-news",
+        "consumer-tech",
+        "platforms"
+      ],
+      "rationale": "Default curated source for daily AI, technology, product, infrastructure, or editorial signal.",
+      "status": "default",
+      "language": "en"
+    },
+    {
+      "name": "Ars Technica",
+      "url": "https://feeds.arstechnica.com/arstechnica/index",
+      "type": "rss",
+      "category": "editorial-analysis",
+      "priority": 0.71,
+      "signals": [
+        "technology-news",
+        "security",
+        "science"
+      ],
+      "rationale": "Default curated source for daily AI, technology, product, infrastructure, or editorial signal.",
+      "status": "default",
+      "language": "en"
+    },
+    {
+      "name": "TechCrunch",
+      "url": "https://techcrunch.com/feed/",
+      "type": "rss",
+      "category": "editorial-analysis",
+      "priority": 0.71,
+      "signals": [
+        "startups",
+        "funding",
+        "technology-news"
+      ],
+      "rationale": "Default curated source for daily AI, technology, product, infrastructure, or editorial signal.",
+      "status": "default",
+      "language": "en"
+    },
+    {
+      "name": "MIT Technology Review (AI)",
+      "url": "https://www.technologyreview.com/topic/artificial-intelligence/feed/",
+      "type": "rss",
+      "category": "editorial-analysis",
+      "priority": 0.78,
+      "signals": [
+        "ai-research",
+        "society",
+        "analysis"
+      ],
+      "rationale": "Default curated source for daily AI, technology, product, infrastructure, or editorial signal.",
+      "status": "default",
+      "language": "en"
+    },
+    {
+      "name": "Behind the Craft",
+      "url": "https://creatoreconomy.so/feed",
+      "type": "rss",
+      "category": "editorial-analysis",
+      "priority": 0.71,
+      "signals": [
+        "creator-economy",
+        "craft",
+        "media"
+      ],
+      "rationale": "Default curated source for daily AI, technology, product, infrastructure, or editorial signal.",
+      "status": "default",
+      "language": "en"
+    },
+    {
+      "name": "Lenny's Newsletter",
+      "url": "https://www.lennysnewsletter.com/feed",
+      "type": "rss",
+      "category": "editorial-analysis",
+      "priority": 0.71,
+      "signals": [
+        "product-strategy",
+        "growth",
+        "startups"
+      ],
+      "rationale": "Default curated source for daily AI, technology, product, infrastructure, or editorial signal.",
+      "status": "default",
+      "language": "en"
+    },
+    {
+      "name": "Forward Future",
+      "url": "https://rss.beehiiv.com/feeds/JX3ex86lzM.xml",
+      "type": "rss",
+      "category": "editorial-analysis",
+      "priority": 0.71,
+      "signals": [
+        "ai-news",
+        "market-analysis"
+      ],
+      "rationale": "Default curated source for daily AI, technology, product, infrastructure, or editorial signal.",
+      "status": "default",
+      "language": "en"
+    },
+    {
+      "name": "Digital Native",
+      "url": "https://www.digitalnative.tech/feed",
+      "type": "rss",
+      "category": "editorial-analysis",
+      "priority": 0.71,
+      "signals": [
+        "market-analysis",
+        "technology-strategy"
+      ],
+      "rationale": "Default curated source for daily AI, technology, product, infrastructure, or editorial signal.",
+      "status": "default",
+      "language": "en"
+    },
+    {
+      "name": "Stratechery (Ben Thompson)",
+      "url": "https://stratechery.com/feed/",
+      "type": "rss",
+      "category": "editorial-analysis",
+      "priority": 0.85,
+      "signals": [
+        "strategy",
+        "market-analysis",
+        "platforms"
+      ],
+      "rationale": "Default curated source for daily AI, technology, product, infrastructure, or editorial signal.",
+      "status": "default",
+      "language": "en"
+    },
+    {
+      "name": "Import AI (Jack Clark)",
+      "url": "https://importai.substack.com/feed",
+      "type": "rss",
+      "category": "editorial-analysis",
+      "priority": 0.85,
+      "signals": [
+        "ai-research",
+        "policy",
+        "frontier-ai"
+      ],
+      "rationale": "Default curated source for daily AI, technology, product, infrastructure, or editorial signal.",
+      "status": "default",
+      "language": "en"
+    },
+    {
+      "name": "Ben's Bites",
+      "url": "https://www.bensbites.com/feed",
+      "type": "rss",
+      "category": "editorial-analysis",
+      "priority": 0.78,
+      "signals": [
+        "ai-news",
+        "tools",
+        "market"
+      ],
+      "rationale": "Default curated source for daily AI, technology, product, infrastructure, or editorial signal.",
+      "status": "default",
+      "language": "en"
+    },
+    {
+      "name": "Simon Willison's Weblog",
+      "url": "https://simonwillison.net/atom/everything/",
+      "type": "atom",
+      "category": "editorial-analysis",
+      "priority": 0.78,
+      "signals": [
+        "llm-engineering",
+        "developer-tools",
+        "practical-dev"
+      ],
+      "rationale": "Default curated source for daily AI, technology, product, infrastructure, or editorial signal.",
+      "status": "default",
+      "language": "en"
+    },
+    {
+      "name": "Paul Graham Essays",
+      "url": "https://filipesilva.github.io/paulgraham-rss/feed.rss",
+      "type": "rss",
+      "category": "editorial-analysis",
+      "priority": 0.71,
+      "signals": [
+        "startups",
+        "strategy",
+        "essays"
+      ],
+      "rationale": "Default curated source for daily AI, technology, product, infrastructure, or editorial signal.",
+      "status": "default",
+      "language": "en"
+    },
+    {
+      "name": "AI by Aakash",
+      "url": "https://www.aibyaakash.com/feed",
+      "type": "rss",
+      "category": "editorial-analysis",
+      "priority": 0.85,
+      "signals": [
+        "ai-analysis",
+        "market-analysis"
+      ],
+      "rationale": "Default curated source for daily AI, technology, product, infrastructure, or editorial signal.",
+      "status": "default",
+      "language": "en"
+    },
+    {
+      "name": "MyClaw Newsletter",
+      "url": "https://newsletter.myclaw.ai/rss/",
+      "type": "rss",
+      "category": "editorial-analysis",
+      "priority": 0.71,
+      "signals": [
+        "agents",
+        "openclaw",
+        "ai-tools"
+      ],
+      "rationale": "Default curated source for daily AI, technology, product, infrastructure, or editorial signal.",
+      "status": "default",
+      "language": "en"
+    }
+  ],
+  "settings": {
+    "default_time_window_hours": 48,
+    "suggested_items_per_source": 5,
+    "max_briefing_items": 8
+  }
+}

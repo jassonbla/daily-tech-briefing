@@ -1,0 +1,30 @@
+{
+  "name": "jasson-agent-skills",
+  "owner": {
+    "name": "jassonbla"
+  },
+  "metadata": {
+    "description": "Personal Agent Skills by jassonbla",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "personal-skills",
+      "description": "Collection of personal workflow, research, and automation skills by jassonbla",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./skills/daily-tech-briefing"
+      ]
+    },
+    {
+      "name": "daily-tech-briefing",
+      "description": "Personalized daily technology briefing skill",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./skills/daily-tech-briefing"
+      ]
+    }
+  ]
+}

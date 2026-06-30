@@ -1,0 +1,31 @@
+---
+name: my-skill-name
+description: A clear description of what this skill does and when an agent should use it.
+---
+
+# My Skill Name
+
+Describe the repeatable workflow this skill teaches the agent.
+
+## When to use
+
+Use this skill when the user asks for ...
+
+## Inputs
+
+- Required input
+- Optional input
+
+## Procedure
+
+1. Understand the user's request.
+2. Gather the minimum required context.
+3. Execute the workflow.
+4. Validate the result.
+5. Report checked vs unchecked items clearly.
+
+## Safety
+
+- Ask before destructive or external actions.
+- Do not expose credentials or private data.
+- Keep persistent user-specific state outside the public skill repository.

@@ -15,7 +15,8 @@
       "strict": false,
       "skills": [
         "./skills/daily-tech-briefing",
-        "./skills/git-insight"
+        "./skills/git-insight",
+        "./skills/coding-workflow"
       ]
     },
     {
@@ -34,6 +35,15 @@
       "strict": false,
       "skills": [
         "./skills/git-insight"
+      ]
+    },
+    {
+      "name": "coding-workflow",
+      "description": "Disciplined PR-oriented workflow for coding agents",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./skills/coding-workflow"
       ]
     }
   ]

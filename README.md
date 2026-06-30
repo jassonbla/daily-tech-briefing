@@ -25,6 +25,7 @@ Install a specific skill:
 ```bash
 npx skills add jassonbla/skills --skill daily-tech-briefing
 npx skills add jassonbla/skills --skill git-insight
+npx skills add jassonbla/skills --skill coding-workflow
 ```
 
 ## Claude Code plugin marketplace
@@ -81,6 +82,24 @@ Install only this skill:
 
 ```bash
 npx skills add jassonbla/skills --skill git-insight
+```
+
+### `coding-workflow`
+
+Run coding tasks with a disciplined, PR-oriented agent workflow: clarify scope, inspect repository context, isolate work, delegate when useful, validate, and report evidence.
+
+Contents:
+
+```text
+skills/coding-workflow/SKILL.md
+skills/coding-workflow/references/checklist.md
+skills/coding-workflow/examples/worker-brief.md
+```
+
+Install only this skill:
+
+```bash
+npx skills add jassonbla/skills --skill coding-workflow
 ```
 
 ## Repository layout
